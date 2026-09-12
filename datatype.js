@@ -14,3 +14,31 @@
 console.log(typeof undefined);// undefined ke type undefined hi hote hai 
 console.log( typeof age);// age ke type hemae pas number hoge
 console.log(typeof null); // null ke type hemare pas object hoge 
+
+// bigint ke lia  hm end pr n lega dete haito woah khud bigint bn jata hai
+
+
+// hemare pas 2 type ke datatype hote hain primitive and non primitive(Referece)
+// primitive dattatype includes 
+// 7 types: String , Number , Boolean , null , undefined , symbol , BigInt
+
+// Reference (non primiitve)
+// Array ,Objects ,Functions
+
+// Array :
+const heros =["shaktiman" , " naagraj" , "doga"]
+console.log(heros)
+
+//object
+let myObj ={
+    name:"Abdullah",
+    age: 19
+}
+
+//functon
+let myfunction = function(){
+
+}
+
+//premitive work with stack they dont change actual data they change data in heap
+// But in non primitive data they work with heap they change actual data
