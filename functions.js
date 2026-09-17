@@ -84,7 +84,7 @@ function calculateCartPrice5(anyarray){
 
 
 // ++++++++++++ 
-// ab hm aik newchwz dekhain ke function aik or reka se bhi declair hojata hai
+// ab hm aik newchwz dekhain ke function aik or treka se bhi declair hojata hai
 addone(5);
 function addone(num){
     return num+1
